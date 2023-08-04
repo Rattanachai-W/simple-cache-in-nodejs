@@ -7,7 +7,7 @@ const NodeCache = require("node-cache");
 const cache = new NodeCache();
 
 app.get("/", (req, res) => {
-  return res.json({ message: "Hello world node-cache." });
+  return res.json({ message: "Hello world node-cache" });
 });
 
 
